@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home Page</title>
+</head>
+<body>
+    <h1>Welcome to the Home Page!</h1>
+    <p>This is the main page after logging in.</p>
+
+    <!-- Add navigation links for login, logout, signup -->
+    <nav>
+        <a href="{% url 'signup' %}">Sign Up</a> |
+        <a href="{% url 'login' %}">Log In</a> |
+        <a href="{% url 'logout' %}">Log Out</a>
+    </nav>
+</body>
+</html>
